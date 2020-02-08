@@ -1,4 +1,4 @@
-package main;
+package main.old;
 
 public class DrawPointer {
     private int[] pos = {0, 0};

@@ -1,4 +1,4 @@
-package main;
+package main.old;
 
 import java.awt.Color;
 import java.awt.Graphics;
@@ -16,7 +16,10 @@ import java.util.TimerTask;
 
 import javax.swing.JFrame;
 
-public class GameOfLifeNormal {
+/**
+ * My old attempt at a basic Game Of Life simulation
+ */
+public class GameOfLifeBasic {
     private final static int SIZE = 1;
     private final static int SIZEX = (int) Toolkit.getDefaultToolkit().getScreenSize().getWidth() / SIZE;
     private final static int SIZEY = (int) Toolkit.getDefaultToolkit().getScreenSize().getHeight() / SIZE;

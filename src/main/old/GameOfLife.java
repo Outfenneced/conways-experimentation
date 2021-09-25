@@ -20,7 +20,7 @@ import javax.swing.JFrame;
  * My old attempt at an interesting Game Of Life simulation
  */
 public class GameOfLife {
-    private final static int SIZE = 2;
+    private final static int SIZE = 4;
     private final static int SIZEX = (int) Toolkit.getDefaultToolkit().getScreenSize().getWidth() / SIZE;
     private final static int SIZEY = (int) Toolkit.getDefaultToolkit().getScreenSize().getHeight() / SIZE;
     private final static int MAX_WHITE = 1000;
@@ -105,7 +105,7 @@ public class GameOfLife {
                         if (grey > 0) {
                             bufImg.setColor(new Color(grey, grey, grey));
                         } else {
-                            //bufImg.setColor(Color.BLACK);
+                            bufImg.setColor(Color.BLACK);
                         }
                     }
                 }
